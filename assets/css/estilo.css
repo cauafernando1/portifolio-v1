@@ -1,0 +1,85 @@
+body {
+  background: rgb(57, 57, 57);
+  color: azure;
+  font-size: 20px;
+}
+.inicio{
+  background-color: purple;
+  padding: 30px;
+  margin: 0;
+  color: black;
+}
+#meusp{
+  background-color: azure;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+.conteudo{
+  padding: 30px;
+}
+ul{
+  list-style: none;
+}
+.listagem-tecnologias{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+.tecnologias{
+  background-color: white;
+  width: 140px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.img-tec{
+  width: 60px;
+  height: 60px;
+}
+.nome-tecnologias{
+  font-size: 25px;
+  color: black;
+}
+
+.fim{
+  background-color: purple;
+  padding: 30px;
+  margin: 0;
+}
+#red{
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#redes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.botao{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  background-color: azure;
+}
+
+*::-webkit-scrollbar{
+  width: 9px;
+}
+
+*::-webkit-scrollbar-track{
+  background: #6b6b6b;
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: #474747;
+  border-radius: 8px;
+  border: 2px solid #6b6b6b;
+}
